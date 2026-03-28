@@ -247,11 +247,11 @@ print(score.json())
 
 ## What's New in v2.0
 
--- **Job-Based Workflow**: Create jobs once, score multiple resumes
--- **PDF Job Descriptions**: Upload job descriptions as PDF files
--- **Reusable Utilities**: Centralized PDF extraction logic
--- **Better Error Handling**: Detailed validation and error messages
--- **Production Ready**: In-memory job store with proper validation
+- **Job-Based Workflow**: Create jobs once, score multiple resumes
+- **PDF Job Descriptions**: Upload job descriptions as PDF files
+- **Reusable Utilities**: Centralized PDF extraction logic
+- **Better Error Handling**: Detailed validation and error messages
+- **Production Ready**: In-memory job store with proper validation
 
 ## License
 
