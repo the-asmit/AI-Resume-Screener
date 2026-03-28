@@ -85,7 +85,7 @@ Access at:
 
 ## API Endpoints
 
-### POST `/api/v1/jobs` ✨ NEW
+### POST `/api/v1/jobs`
 
 Create a new job posting and receive a unique job ID.
 
@@ -109,7 +109,7 @@ curl -X POST "http://localhost:8000/api/v1/jobs" \
   -F "job_description_text=Senior Python Developer with FastAPI experience"
 ```
 
-### POST `/api/v1/score-resume` ✨ UPDATED
+### POST `/api/v1/score-resume`
 
 Score a resume against a job using its job_id.
 
@@ -247,13 +247,11 @@ print(score.json())
 
 ## What's New in v2.0
 
-✨ **Job-Based Workflow**: Create jobs once, score multiple resumes
-✨ **PDF Job Descriptions**: Upload job descriptions as PDF files
-✨ **Reusable Utilities**: Centralized PDF extraction logic
-✨ **Better Error Handling**: Detailed validation and error messages
-✨ **Production Ready**: In-memory job store with proper validation
-
-See [API_TESTING_GUIDE.md](API_TESTING_GUIDE.md) for comprehensive testing examples.
+**Job-Based Workflow**: Create jobs once, score multiple resumes
+**PDF Job Descriptions**: Upload job descriptions as PDF files
+**Reusable Utilities**: Centralized PDF extraction logic
+**Better Error Handling**: Detailed validation and error messages
+**Production Ready**: In-memory job store with proper validation
 
 ## License
 
