@@ -11,6 +11,19 @@ class ResumeRequest(BaseModel):
     job_description: str = Field(..., description="Job description to match against")
 
 
+class JobCreateRequest(BaseModel):
+    """Request model for creating a job posting."""
+    
+    job_description_text: Optional[str] = Field(None, description="Job description as text")
+
+
+class JobCreateResponse(BaseModel):
+    """Response model for job creation."""
+    
+    job_id: str = Field(..., description="Unique identifier for the job")
+    message: str = Field(..., description="Success message")
+
+
 class ScoreJustification(BaseModel):
     """Justification details for each score component."""
     
